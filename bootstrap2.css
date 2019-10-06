@@ -1,0 +1,98 @@
+pre{
+  display: block;
+  font-family: monospace; 
+  white-space: pre;
+  margin: 1em 0;
+
+}
+font-family: "segoe ui";
+}
+h1 {
+  font-size: 25px;
+}
+input, select {
+  border: 1px solid #CCCCCC;
+  padding: 7px;
+  font-size: 14px;
+}
+input[type="submit"] {
+  padding: 7px 15px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+label {
+  width: 120px;
+  display: block;
+  float: left;
+}
+.checkbox, .radio {
+  float:none;
+  width: auto;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+.row {
+  margin-bottom: 5px;
+  clear: both;
+}
+.options {
+  float:left;
+}
+  pre {
+    background-color:white;
+    background-image:-webkit-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-moz-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-ms-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-o-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:linear-gradient(top, #f5f5f5 50%, white 50%);
+    -webkit-background-size:30px 30px;
+    -moz-background-size:30px 30px;
+    -ms-background-size:30px 30px;
+    -o-background-size:30px 30px;
+    background-size:30px 30px;
+    background-repeat:repeat;
+    font:bold 12px/15px "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    color:#333;
+    border:2px solid #666;
+    position:relative;
+    padding:0 7px;
+    margin:10px 5px;
+    overflow:auto;
+    word-wrap:normal;
+    white-space:pre;
+    -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    position:relative;
+    }
+    pre[data-codetype] {
+    padding:29px 1em 7px 1em;
+    }
+    pre[data-codetype]:before {
+    content:attr(data-codetype);
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    background-color:#666;
+    padding:0 7px;
+    font:bold 11px/20px Arial,Sans-Serif;
+    color:white;
+    }
+    pre[data-codetype="HTML"] {border-color:#0B7E88;color:#08464B;}
+    pre[data-codetype="CSS"] {border-color:#7B990C;color:#4B5D08;}
+    pre[data-codetype="JavaScript"] {border-color:#545448;color:#1F2E24;}
+    pre[data-codetype="JQuery"] {border-color:#395540;color:#2E2E27;}
+    pre[data-codetype="PHP"] {border-color:#44c7f4;color:#000000;}
+    pre[data-codetype="XML"] {border-color:#FF0C39;color:#790015;}
+    pre[data-codetype="HTML"]:before {background-color:#0B7E88;}
+    pre[data-codetype="CSS"]:before {background-color:#7B990C;}
+    pre[data-codetype="JavaScript"]:before {background-color:#545448;}
+    pre[data-codetype="JQuery"]:before {background-color:#395540;}
+    pre[data-codetype="PHP"]:before {background-color:#44c7f4;}
+    pre[data-codetype="XML"]:before {background-color:#FF0C39;
+    }
